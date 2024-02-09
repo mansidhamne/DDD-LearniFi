@@ -7,22 +7,22 @@ html{
     padding:0;
     margin:0;
     box-sizing: border-box;
-    font-family:"Poppins",sans-serif;
+    // font-family:"Poppins",sans-serif;
 }
 
 body{
-    background-color:#FAC770;
+   
+    width: 100%;
+    height: 100vh;
     color: #041124;
 }
 
 a{
     text-decoration: none;
     color: inherit;
-
 }
 
 section{
     height: 100vh;
     scroll-snap-align: center;
-
 }
