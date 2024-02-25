@@ -13,20 +13,17 @@ export const Navbar=()=>{
     return(
         <div className="navbar"> 
             <div className="navbar-container">
-                {/* <a href="" className="active">Home</a>
-                <a href="">About</a>
-                <a href="">Instructors</a>
                 <h1 className="logo">LearniFi</h1>
-                <a href="">Courses</a>
-                <a href="">Login</a>
-                <a className="enroll" href="">Enroll</a> */}
-                <Link to="/" onClick={handleLinkClick} className="active">Home</Link>
-                <Link to="/about" onClick={handleLinkClick}>About</Link>
-                <Link to="/instructors" onClick={handleLinkClick}>Instructors</Link>
-                <h1 className="logo">LearniFi</h1>
-                <Link to="/courses" onClick={handleLinkClick}>Courses</Link>
-                <a href="/login">Login</a>
-                <a className="enroll" href="">Enroll</a> 
+                <div className="links">
+                    <Link to="/" onClick={handleLinkClick} className="active">Home</Link>
+                    <Link to="/about" onClick={handleLinkClick}>About</Link>
+                    <Link to="/games" onClick={handleLinkClick}>Games</Link>
+                    <Link to="/blogs" onClick={handleLinkClick}>Blogs</Link>
+                    {/* <Link to="/chatbot" onClick={handleLinkClick}>Chat With Us</Link> */}
+                    <a href="/chatbot">Chat With Us</a>
+                    <a className="login" href="/login">Login</a>
+                    {/* <a className="enroll" href="">Enroll</a>  */}
+                </div>
             </div>    
         </div>
     )

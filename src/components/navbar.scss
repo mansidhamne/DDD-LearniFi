@@ -1,3 +1,53 @@
+// @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+// .navbar{
+//     margin:0;
+//     padding: 0;
+// }
+// .navbar-container{
+//     position: relative;
+//     top: 0;
+//     // left: 0;
+//     width: 100%;
+//     padding: 30px 50px;
+//     display: flex;
+//     //justify-content:center;
+//     justify-content: space-between;
+//     align-items: center;
+//     z-index: 100;
+//     background-color: #FAC770;
+// }
+
+// .logo{
+//     font-size: 2 em;
+//     color: black;
+//     pointer-events: none;
+//     font-family: 'Pacifico', cursive;
+// }
+
+// .navbar-container a{
+//     text-decoration: none;
+//     color: black;
+//     padding: 6px 15px;
+//     border-radius: 20px;
+//     margin: 0 10px;
+//     font-weight: 500;
+//     font-family: "Montserrat", sans-serif;
+// }
+
+// .navbar-container a:hover,.navbar-container a.active{
+//     background: teal;
+//     color: white;
+// }
+
+// .enroll {
+//   background-color: #007bff; /* Or desired button color */
+//   color: #fff;
+//   padding: 10px 20px;
+//   border: none;
+//   border-radius: 5px;
+//   cursor: pointer;
+// }
+
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 .navbar{
     margin:0;
@@ -5,6 +55,7 @@
 }
 .navbar-container{
     position: relative;
+    display: flex;
     top: 0;
     // left: 0;
     width: 100%;
@@ -26,7 +77,7 @@
 
 .navbar-container a{
     text-decoration: none;
-    color: black;
+    //color: black;
     padding: 6px 15px;
     border-radius: 20px;
     margin: 0 10px;
@@ -38,10 +89,13 @@
     background: teal;
     color: white;
 }
-
-.enroll {
-  background-color: #007bff; /* Or desired button color */
-  color: #fff;
+.links{
+    display: flex;
+    gap: 20px;
+}
+.login {
+  background-color: #de4941; /* Or desired button color */
+  color: #ffffff;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;

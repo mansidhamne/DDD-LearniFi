@@ -29,13 +29,13 @@ export const Footer = () => {
           <Link onClick={() => scrollToSection('AboutUs')} to="/">
             About Us
           </Link>
-          <Link onClick={() => scrollToSection('Instructors')} to="/">
+          <Link onClick={() => scrollToSection('Games')} to="/">
             Instructors
           </Link>
-          <Link onClick={() => scrollToSection('Courses')} to="/">
+          <Link onClick={() => scrollToSection('Blogs')} to="/">
             Courses
           </Link>
-          <Link onClick={() => scrollToSection('ContactUs')} to="/">
+          <Link onClick={() => scrollToSection('Chat With Us')} to="/">
             Contact Us
           </Link>
         </div>
