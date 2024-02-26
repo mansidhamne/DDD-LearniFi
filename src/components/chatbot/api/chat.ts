@@ -1,7 +1,7 @@
 import { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold } from '@google/generative-ai';
 
 const MODEL_NAME = 'gemini-pro';
-const API_KEY = 'AIzaSyA_I8wR81VOPltGZdKudkyUM1cumsoqMUY'; // Replace with your API key
+const API_KEY = 'YOUR_API_KEY'; // Replace with your API key
 
 async function sendResponse(userInput: string): Promise<string> {
   const genAI = new GoogleGenerativeAI(API_KEY);
